@@ -2290,9 +2290,7 @@ ul, ol {
 	.hideOverflowOnMobile {
 		overflow: hidden;
 	}
-	.readMore{
-		border: 2px solid #f5b917 !important;
-	}
+	
 }
 /* Small Mobile: 320px */
 
@@ -2343,9 +2341,7 @@ ul, ol {
 	.hideOverflowOnMobile {
 		overflow: hidden;
 	}
-	.readMore{
-		border: 2px solid #f5b917 !important;
-	}
+	
 
 	/* .primary-btn {
 		display: inline-block;
