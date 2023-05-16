@@ -2331,6 +2331,9 @@ ul, ol {
 	.blog-details-text .comment-option .single-comment-item .sc-text a {
 		margin-bottom: 10px;
 	}
+	.hero-text {
+		padding-top: 80px;
+	}
 	.hero-text h1{
 		font-size: 60px;
 	}
