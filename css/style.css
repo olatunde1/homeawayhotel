@@ -589,6 +589,13 @@ ul, ol {
 	margin-top: 30px;
 }
 
+.booking-form button:hover {
+
+	color: #ffffff;
+	background: #dfa974;
+	
+}
+
 .booking-form ul{
 	padding-top: 14px;
 }
