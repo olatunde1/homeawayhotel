@@ -606,6 +606,30 @@ ul, ol {
 	height: 46px;
 	margin-top: 30px;
 }
+
+.booking-form button {
+	display: block;
+	font-size: 14px;
+	text-transform: uppercase;
+	border: 1px solid #dfa974;
+	border-radius: 2px;
+	color: #dfa974;
+	font-weight: 500;
+	background: transparent;
+	width: 100%;
+	height: 46px;
+	margin-top: 30px;
+}
+
+.booking-form ul{
+	padding-top: 14px;
+}
+.booking-form ul li{
+	list-style: none;
+	font-size: 18px;
+	font-family:  "Lora", serif;
+	padding-top: 8px;
+}
 .hero-slider {
 	position: absolute;
 	width: 100%;
