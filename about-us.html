@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 
@@ -42,7 +43,7 @@
         <div class="canvas-close">
             <i class="icon_close"></i>
         </div>
-       <!-- <div class="search-icon  search-switch">
+      <!-- <div class="search-icon  search-switch">
             <i class="icon_search"></i>
         </div> -->
         <!-- <div class="header-configure-area">
@@ -110,7 +111,7 @@
                                 <!-- <a href="#"><i class="fa fa-tripadvisor"></i></a> -->
                                 
                             </div>
-                            <a href="https://api.whatsapp.com/send?phone=+2349030090942&text=Hello,Trust this is HomeAway Apartment Hotel Customer Service ?. I will like to make an enqiuiry" class="primary-btn" class="bk-btn">Booking Now</a>
+                            <a href="https://api.whatsapp.com/send?phone=+2349030090942&text=Hello,Trust this is HomeAway Apartment Hotel Customer Service ?. I will like to make an enqiuiry" class="bk-btn">Booking Now</a>
                             <!-- <div class="language-option">
                                 <img src="img/flag.jpg" alt="">
                                 <span>EN <i class="fa fa-angle-down"></i></span>
@@ -191,26 +192,26 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="ap-title">
-                            <h2>Welcome To HomeAway Apartment.</h2>
-                            <p>Built in 2019, this hotel is located in the heart of
+                            <h2 data-aos="fade-up-right">Welcome To HomeAway Apartment.</h2>
+                            <p>Built in 2019,located in the heart of
                                 Akure, with easy access to the city’s tourist attractions. It offers tastefully
                                 decorated rooms.</p>
                         </div>
                     </div>
                     <div class="col-lg-5 offset-lg-1">
                         <ul class="ap-services">
-                            <li><i class="icon_check"></i> Nice Accommodation Ambience.</li>
+                            <li data-aos="fade-up-left"><i class="icon_check"></i> Nice Accommodation Ambience.</li>
                             <li><i class="icon_check"></i> Complimentary Daily Breakfast</li>
-                            <li><i class="icon_check"></i> Laundry Per Day</li>
+                            <li data-aos="fade-right"><i class="icon_check"></i> Laundry Per Day</li>
                             <li><i class="icon_check"></i> Free Wifi.</li>
-                            <li><i class="icon_check"></i> Steady Electricity</li>
+                            <li data-aos="zoom-out-left"><i class="icon_check"></i> Steady Electricity</li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="about-page-services">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-4"  data-aos="flip-left">
                         <div class="ap-service-item set-bg" data-setbg="img/about/about-p1.jpg">
                             <div class="api-text">
                                 <h3>Restaurants Services</h3>
@@ -224,7 +225,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4" data-aos="fade-up-left">
                         <div class="ap-service-item set-bg" data-setbg="img/homeaway/event.webp">
                             <div class="api-text">
                                 <h3>Event & Party</h3>
@@ -242,7 +243,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="video-text">
+                    <div class="video-text" data-aos="fade-up">
                         <h2>Discover Our Hotel & Services.</h2>
                         <p>Stay once, carry memories forever</p>
                         <!-- <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup"><img
@@ -273,7 +274,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-6">
+                        <div class="col-sm-6" data-aos="fade-up-left">
                             <div class="gallery-item set-bg" data-setbg="img/homeaway/1.jpg">
                                 <div class="gi-text">
                                     <!-- <h3>Room Luxury</h3> -->
@@ -287,7 +288,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-sm-6" >
                             <div class="gallery-item set-bg" data-setbg="img/homeaway/3.jpg">
                                 <div class="gi-text">
                                     <!-- <h3>Room Luxury</h3> -->
@@ -324,7 +325,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-6">
+                        <div class="col-sm-6" data-aos="fade-up">
                             <div class="gallery-item set-bg" data-setbg="img/homeaway/5.jpg">
                                 <div class="gi-text">
                                     <!-- <h3>Room Luxury</h3> -->
@@ -338,7 +339,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-sm-6" data-aos="fade-up-right">
                             <div class="gallery-item set-bg" data-setbg="img/homeaway/7.jpg">
                                 <div class="gi-text">
                                     <!-- <h3>Room Luxury</h3> -->
@@ -439,6 +440,34 @@
     <!-- Search model end -->
 
     <!-- Js Plugins -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+                    // You can also pass an optional settings object
+            // below listed default settings
+            AOS.init({
+            // Global settings:
+            disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+            startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+            initClassName: 'aos-init', // class applied after initialization
+            animatedClassName: 'aos-animate', // class applied on animation
+            useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+            disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+            debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+            throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+            
+
+            // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+            offset: 120, // offset (in px) from the original trigger point
+            delay: 0, // values from 0 to 3000, with step 50ms
+            duration: 3000, // values from 0 to 3000, with step 50ms
+            easing: 'ease', // default easing for AOS animations
+            once: false, // whether animation should happen only once - while scrolling down
+            mirror: false, // whether elements should animate out while scrolling past them
+            anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+            });
+    </script>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
