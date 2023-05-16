@@ -1893,12 +1893,13 @@ ul, ol {
 }
 .contact-text p {
 	color: #707079;
+	font-size: 20px;
 }
 .contact-text table tbody tr td {
 	font-size: 16px;
-	color: #19191a;
+	color: #707079;
 	line-height: 36px;
-	font-weight: 500;
+	font-weight: 300;
 }
 .contact-text table tbody tr td.c-o {
 	color: #707079;
