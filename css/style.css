@@ -600,9 +600,10 @@ ul, ol {
 }
 .booking-form ul li{
 	list-style: none;
-	font-size: 18px;
+	font-size: 22px;
 	font-family:  "Lora", serif;
 	padding-top: 8px;
+	font-weight: 500;
 }
 .hero-slider {
 	position: absolute;
@@ -733,6 +734,10 @@ ul, ol {
 }
 .hp-room-items .hp-room-item:hover .hr-text {
 	bottom: 135px;
+	/* background-color: #000000;
+	padding: 12px;
+	opacity: 0.7;
+	border-radius: 8px; */
 }
 .hp-room-items .hp-room-item:hover .hr-text h2 {
 	margin-bottom: 30px;
@@ -750,6 +755,15 @@ ul, ol {
 	color: #ffffff;
 	margin-bottom: 15px;
 }
+
+.hp-room-items .hp-room-item .hr-text h4 {
+	color: #ffffff;
+	margin-bottom: 15px;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
 .hp-room-items .hp-room-item .hr-text h2 {
 	color: #dfa974;
 	font-weight: 700;
