@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 
-<body>
+<body oncontextmenu="return false">
     <!-- Page Preloder -->
     <div id="preloder">
         <div class="loader"></div>
@@ -342,5 +342,28 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
 </body>
+<script>
+    document.onkeydown=function(e)
+    {
+        if(event.keyCode == 123)
+        {
+            return false;
+        }
 
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0))
+        {
+            return false;
+        }
+
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0))
+        {
+            return false;
+        }
+
+        if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0))
+        {
+            return false;
+        }
+    }
+</script>
 </html>
