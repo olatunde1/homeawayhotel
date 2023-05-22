@@ -29,7 +29,7 @@
     
 </head>
 
-<body>
+<body oncontextmenu="return false">
     <!-- Page Preloder -->
     <div id="preloder">
         <div class="loader"></div>
@@ -683,7 +683,7 @@
                             <ul>
                                 <li>(+234)9030090942</li>
                                 <li>homeawayaptsakure1@gmail.com</li>
-                                <li>Plot 10 block IXD. opp rccg glory tabernacle,ijaro estate akure.</li>
+                                <li>Plot 10 block IXD. opp rccg glory tabernacle,ijapo estate akure.</li>
                             </ul>
                         </div>
                     </div>
@@ -772,5 +772,28 @@
     
     <script src="js/main.js"></script>
 </body>
+<script>
+    document.onkeydown=function(e)
+    {
+        if(event.keyCode == 123)
+        {
+            return false;
+        }
 
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0))
+        {
+            return false;
+        }
+
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0))
+        {
+            return false;
+        }
+
+        if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0))
+        {
+            return false;
+        }
+    }
+</script>
 </html>
